@@ -1,0 +1,63 @@
+/*Start info section*/
+
+.info {
+  overflow: hidden;
+  margin: 5vh 5%;
+}
+.text h1 {
+  line-height: 10vh;
+  font-size: 3em;
+  padding-bottom: 2vh;
+}
+.text {
+  width: 50%;
+  float: left;
+}
+
+.image {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 50vh;
+  width: 35%;
+  float: right;
+  background-image: url("https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+/*End info section*/
+
+/*Start feedback section*/
+
+.feedback {
+  margin-top: 10px;
+  overflow: hidden;
+  width: 100%;
+  background-image: url("https://thumbs.dreamstime.com/b/large-resort-casino-hotel-building-phoenix-11630982.jpghttps://thumbs.dreamstime.com/b/palm-trees-large-hotel-clearwater-beach-florida-47655241.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedback h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 2%;
+}
+
+.comment img {
+  margin-right: 1%;
+  width: 10%;
+  border-radius: 50%;
+  float: left;
+}
+
+.comment {
+  overflow: hidden;
+  margin: 5%;
+  padding: 1.5%;
+  background-color: #f7c08a;
+}
+
+.comment p{
+  padding-top: 3vh;
+}
+
+/*End feedback section*/

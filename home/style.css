@@ -1,0 +1,158 @@
+/*Start nav-bar*/
+nav {
+  background-color: #333;
+  width: 100%;
+  height: 50%;
+  padding: 0px 5vw;
+  margin: auto;
+  overflow: auto;
+}
+
+nav a {
+  padding: 3.9vh 2vw;
+  color: white;
+  text-decoration: none;
+}
+
+nav h1 a {
+  float: left;
+  padding: 3vh;
+}
+
+ul {
+  list-style: none;
+  float: right;
+}
+
+li {
+  padding: 3.9vh 0px;
+  float: left;
+}
+
+li:hover,
+li:hover a,
+.active,
+.active a {
+  cursor: pointer;
+  background-color: #444;
+  color: #f7c08a;
+}
+/*End nav-bar*/
+
+/*Start main-section*/
+.main-section {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("https://scontent.fcai20-2.fna.fbcdn.net/v/t1.0-9/127216875_2880118585557403_8688807304586851135_n.jpg?_nc_cat=107&ccb=2&_nc_sid=b9115d&_nc_ohc=3wnQf40P0UIAX9rtAXS&_nc_ht=scontent.fcai20-2.fna&oh=cb1b8933faf49a646fb7e7184a55f536&oe=5FF0CF59");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.main-section h1 {
+  line-height: 1.5em;
+  font-size: 3em;
+  color: white;
+  padding-top: 25vh;
+}
+
+.main-section p {
+  line-height: 1.3em;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.margin {
+  margin-top: 5vh;
+}
+
+.button {
+  font-size: 1em;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 2.5vh 3vh;
+  box-shadow: rgba(0, 0, 0, 0.514);
+}
+
+.main-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover,
+.main-section a:hover {
+  cursor: pointer;
+  background-color: #f7c08a;
+  color: black;
+}
+/*End main-section*/
+
+/*Start the details section*/
+.image {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/3694706/pexels-photo-3694706.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info {
+  text-align: center;
+  height: 100vh;
+  width: 50%;
+  float: right;
+  background-color: #333;
+  color: white;
+  padding: 30vh 3vw;
+}
+
+.info p {
+  padding-top: 2vh;
+}
+
+.info button {
+  margin-top: 2vh;
+  padding: 2.5vh 2.5vw;
+  color: #333;
+  text-decoration: none;
+}
+
+.info button:hover,
+.info a:hover {
+  cursor: pointer;
+  background-color: #f7c08a;
+}
+/*End the details section*/
+
+/*Start the Options section*/
+.option {
+  padding: 7vh 5vw;
+  text-align: center;
+  width: 33.333%;
+  float: left;
+}
+
+.option h3 {
+  padding: 3vh 0px;
+}
+/*End the Options section*/
+
+.clear {
+  clear: both;
+}
+/*Start footer*/
+footer {
+  padding: 2vh 0px;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  font-weight: 100px;
+}
+
+/*End footer*/
+
+/*General*/
+span {
+  color: #f7c08a;
+}
