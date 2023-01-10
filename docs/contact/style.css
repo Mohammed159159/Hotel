@@ -1,0 +1,79 @@
+/*start form*/
+.form{
+    margin-top: 4vh;
+    margin-left: 15%;
+
+}
+
+.form h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-bottom: 3vh;
+}
+
+span{
+    color: #f7c08a;
+}
+
+label{
+    margin-top: 1000px;
+}
+
+.margin{
+    margin-top: 3vh;
+}
+.form form input, textarea{
+    padding: 5px;
+    border: solid rgb(206, 200, 200) 0.1px;
+    width: 70%;
+    height: 5vh;
+    display: block;
+}
+
+.form textarea{
+    height: 35vh;
+    font-family: "Roboto";
+}
+
+.form .button{
+    background-color: #333;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.form .button:hover{
+    background-color: #444;
+}
+/*end form*/
+
+/*start pre-footer*/
+.pre-footer{
+    padding-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.connect{
+    color: white;
+    text-align: center;
+}
+
+.connect h3{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.connect p{
+    font-weight: 100;
+    font-size: small;
+}
+
+
+/*end pre-footer*/
